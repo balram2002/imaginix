@@ -46,7 +46,7 @@ export const Search = () => {
 
             <Input
                 className="search-field"
-                placeholder="Search"
+                placeholder="Search edited images | AI image tags"
                 onChange={(e) => setQuery(e.target.value)}
             />
         </div>

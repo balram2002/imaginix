@@ -5,11 +5,6 @@ export const navLinks = [
         icon: "/assets/icons/home.svg",
     },
     {
-        label: "Image Restore",
-        route: "/transformations/add/restore",
-        icon: "/assets/icons/image.svg",
-    },
-    {
         label: "Generative Fill",
         route: "/transformations/add/fill",
         icon: "/assets/icons/stars.svg",
@@ -28,6 +23,11 @@ export const navLinks = [
         label: "Background Remove",
         route: "/transformations/add/removeBackground",
         icon: "/assets/icons/camera.svg",
+    },
+    {
+        label: "Image Restore",
+        route: "/transformations/add/restore",
+        icon: "/assets/icons/image.svg",
     },
     {
         label: "Profile",
@@ -69,13 +69,13 @@ export const plans = [
     },
     {
         _id: 2,
-        name: "Pro Package",
+        name: "Basic Package",
         icon: "/assets/icons/free-plan.svg",
-        price: 40,
-        credits: 120,
+        price: 10,
+        credits: 20,
         inclusions: [
             {
-                label: "120 Credits",
+                label: "20 Credits",
                 isIncluded: true,
             },
             {
@@ -94,13 +94,13 @@ export const plans = [
     },
     {
         _id: 3,
-        name: "Premium Package",
+        name: "Pro Package",
         icon: "/assets/icons/free-plan.svg",
-        price: 199,
-        credits: 2000,
+        price: 40,
+        credits: 50,
         inclusions: [
             {
-                label: "2000 Credits",
+                label: "50 Credits",
                 isIncluded: true,
             },
             {

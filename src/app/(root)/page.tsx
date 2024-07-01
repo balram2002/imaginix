@@ -5,6 +5,12 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { Collection } from '@/components/shared/Collection'
 import { getAllImages } from '@/lib/actions/imageActions'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: "Home | Imaginix",
+  description: "Home Page to see everything at one place.",
+};
 
 const HomePage = async ({ searchParams }: SearchParamProps) => {
 

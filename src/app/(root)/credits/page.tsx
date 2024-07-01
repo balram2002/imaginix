@@ -7,6 +7,12 @@ import { Button } from "@/components/ui/button";
 import { plans } from "../../../../constants/index";
 import { getUserById } from "@/lib/actions/userActions";
 import Checkout from "@/components/shared/Checkout";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Buy credits | Imaginix",
+    description: "buy credits to use imaginix features",
+};
 
 const Credits = async () => {
     const { userId } = auth();

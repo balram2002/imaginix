@@ -6,6 +6,12 @@ import { Collection } from "@/components/shared/Collection";
 import Header from "@/components/shared/Header";
 import { getUserImages } from "@/lib/actions/imageActions";
 import { getUserById } from "@/lib/actions/userActions";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Profile Page | Imaginix",
+    description: "User Profile page on Imaginix",
+};
 
 const Profile = async ({ searchParams }: SearchParamProps) => {
     const page = Number(searchParams?.page) || 1;
