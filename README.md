@@ -3,7 +3,7 @@
 
 Some Features:
 
--   🌟 Tech stack: MERN + Material UI + SCSS/Bootstrap + Razorpay + Cloudinary
+-   🌟 Tech stack: NextJs + Shadcn UI + TailwindCss + stripe + Cloudinary
 -   🎃 **Authentication and Authorization**: Secure user access with registration, login, and route protection.
 -   👾 **Community Image Showcase**: Explore user transformations with easy navigation using pagination
 -   🚀 **Advanced Image Search**: Find images by content or objects present inside the image quickly and accurately
