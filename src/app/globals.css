@@ -76,6 +76,15 @@
   }
 }
 
+@media (max-width: 640px) {
+  .footer-div {
+    flex-direction: column !important;
+    padding: 10px;
+    gap: 4px;
+    padding-top: 15px;
+  }
+}
+
 .auth {
   @apply flex-center min-h-screen w-full bg-purple-100
 }
@@ -85,7 +94,7 @@
 }
 
 .root-container {
-  @apply mt-16 flex-1 overflow-auto py-8 lg:mt-0 lg:max-h-screen lg:py-10
+  @apply mt-16 flex-1 overflow-auto py-8 pb-3 lg:mt-0 lg:max-h-screen lg:py-10
 }
 
 /* ========================================== TAILWIND STYLES */
